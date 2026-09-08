@@ -5,7 +5,7 @@
   web dialog, chat card, or another interactive surface. The request contains
   only reviewable metadata; callers must never place credentials or raw page
   content in it."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def decisions #{:approved :rejected :dismissed})
 
